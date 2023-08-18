@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self Introduction</title>
+    <!-- Favicon -->
+    <link rel="icon" href="https://avatars0.githubusercontent.com/u/43749971" type="image/x-icon" />
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- Core theme CSS -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <!-- <a class="links1" action="./handle-login.php" target="_blank">Login </a> -->
+  <button class= "signin" type="button" onclick="openSignInPage()">Sign In</button>
+  <script>
+    // Function to open the new sign-in page
+    function openSignInPage() {
+      window.open("login.html", "_blank");
+    }
+  </script>
+
+    <!-- Parallax Pixel Background Animation -->
+    <section class="animated-background">
+      <div id="stars1"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+    </section>
+    <!-- End of Parallax Pixel Background Animation -->
+
+    <a id="profilePicture" href="#popup">
+      <img src="https://avatars0.githubusercontent.com/u/43749971" alt="Profile Picture">
+    </a>
+
+    <div class="overlay" id="popup">
+      <div class="popup">
+        <div class="popup-photo">
+          <a href="https://avatars0.githubusercontent.com/u/43749971" target="_blank">
+            <img src="https://avatars0.githubusercontent.com/u/43749971" alt="Profile Picture">
+          </a>
+          
+        </div>
+        <div class="popup-quote">
+          Nothing change after all, maybe something inside me is changing but rather not "naiive"
+        </div>
+        <a class="popup-close" onclick="history.back()">&times;</a>
+      </div>
+    </div>
+
+    <div id="userName">
+      @Cuong
+    </div>
+
+    <div id="links">
+      <a class="link" href="https://github.com/johnggli" target="_blank">
+        <i class="fab fa-github">&nbsp;</i>Github
+      </a>
+      <a class="link" href="https://www.linkedin.com/in/johnggli" target="_blank">
+        <i class="fab fa-linkedin">&nbsp;</i>Linkedin
+      </a>
+      <a class="link" href="https://www.facebook.com/cuong.otaku.773/" target="_blank">
+        <i class="fab fa-facebook">&nbsp;</i>Facebook
+      </a>
+      <a class="link" href="https://www.instagram.com/kelvin_alor/" target="_blank">
+        <i class="fab fa-instagram">&nbsp;</i>Instagram
+      </a>
+      <a class="link" href="https://twitter.com/shinkurva" target="_blank">
+        <i class="fab fa-twitter">&nbsp;</i>Twitter
+      </a>
+      <a class="link" href="https://myanimelist.net/profile/johnggli" target="_blank">
+        <i class="fa fa-play-circle">&nbsp;</i>MyAnimeList
+      </a>
+    </div>
+
+    <div id="hashtag">
+      #BeHappy❤
+    </div>
+  </body>
+</html>
